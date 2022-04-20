@@ -1,0 +1,6 @@
+# data file
+*_recv.txt
+
+# executable file
+*.class
+*.out
