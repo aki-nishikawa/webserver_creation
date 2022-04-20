@@ -7,7 +7,7 @@ public class TcpServer {
         try (
             ServerSocket server = new ServerSocket(8001);
             FileOutputStream fos = new FileOutputStream("server_recv.txt");
-            FileInputStream fis = new FileInputStream("server_send.txt");
+            FileInputStream fis = new FileInputStream("../server_send.txt");
         ){
             System.out.println("waiting access from client");
             Socket socket = server.accept();
