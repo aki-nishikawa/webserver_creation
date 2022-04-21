@@ -1,6 +1,9 @@
 CC = gcc
 
-all:	tcp_server.out tcp_client.out
+all:	tcp_server_2.out tcp_server.out tcp_client.out
+
+tcp_server_2.out:	tcp_server_2.c
+	$(CC) $< -o $@
 
 tcp_server.out:	tcp_server.c
 	$(CC) $< -o $@

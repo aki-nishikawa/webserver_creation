@@ -5,7 +5,7 @@ public class TcpClient {
     public static void main(String[] argv) throws Exception
     {
         try (
-            Socket socket = new Socket("localhost", 8001);
+            Socket socket = new Socket("www.westlab", 80);
             FileOutputStream fos = new FileOutputStream("client_recv.txt");
             FileInputStream fis = new FileInputStream("../client_send.txt");
         ){
