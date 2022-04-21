@@ -7,7 +7,7 @@ public class TcpClient {
         try (
             Socket socket = new Socket("www.westlab", 80);
             FileOutputStream fos = new FileOutputStream("client_recv.txt");
-            FileInputStream fis = new FileInputStream("../client_send.txt");
+            FileInputStream fis = new FileInputStream("../../contents/client_send.txt");
         ){
             int ch;
 
