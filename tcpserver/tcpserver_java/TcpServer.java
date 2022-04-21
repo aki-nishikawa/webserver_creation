@@ -16,11 +16,11 @@ public class TcpServer {
             int ch;
 
             System.out.println("server start recieving data");
-            InputStream input = socket.getInputStream();
-            while ((ch = input.read()) != 0)
-            {
-                fos.write(ch);
-            }
+            // InputStream input = socket.getInputStream();
+            // while ((ch = input.read()) != 0)
+            // {
+            //     fos.write(ch);
+            // }
             System.out.println("server finish recieving data");
 
             System.out.println("server start sending data");
