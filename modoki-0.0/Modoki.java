@@ -73,7 +73,7 @@ public class Modoki
             // response header
             writeLine(output, "HTTP/1.1 200 OK");
             writeLine(output, "Date: " + getDataStringUtc());
-            writeLine(output, "Server: Modoki/0.1");
+            writeLine(output, "Server: Modoki/0.0");
             writeLine(output, "Connection: close");
             writeLine(output, "Content-type: text/html");
             writeLine(output, "");
