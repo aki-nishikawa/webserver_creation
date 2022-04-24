@@ -1,12 +1,11 @@
 import java.io.*;
 import java.net.*;
-import java.sql.Time;
 import java.util.*;
 import java.text.*;
 
 public class Modoki 
 {
-    private static final String DOCUMENT_ROOT = "/home/nishikawa/playground/webserver_creation/contents/";
+    private static final String DOCUMENT_ROOT = "/home/nishikawa/playground/webserver_creation/contents";
 
     // read binary line from InputStream
     private static String readLine(InputStream input)
