@@ -5,10 +5,10 @@
 
 http://kmaebashi.com/webserver/index.html
 
-## tcpserver
+## chapter 1: tcpserver
 TCP サーバとクライアントを C と Java で実装した．
 
-## webserver Modoki
+## chapter 2: webserver Modoki
 ### modoki-0.0
 HTTP リクエストに対して指定されたリソースを返す
 ### modoki-0.1
